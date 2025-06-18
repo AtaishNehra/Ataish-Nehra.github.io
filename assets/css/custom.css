@@ -1,0 +1,31 @@
+/* Custom beautification styles */
+body {
+    background: linear-gradient(135deg, #1e252d 0%, #2d4059 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+}
+
+.post.featured, .posts article {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post.featured:hover, .posts article:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+a.button {
+    border-radius: 50px;
+    padding: 0.75em 1.5em;
+    background: #ff6f61;
+    border: none;
+    color: #fff !important;
+}
+
+a.button:hover {
+    background: #ff8a75;
+}
