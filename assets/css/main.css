@@ -143,9 +143,9 @@ input, select, textarea {
 
 		}
 
-	body {
-		color: #212931;
-	}
+body {
+                /* color override removed for readability */
+        }
 
 	body, input, select, textarea {
 		font-family: "Merriweather", Georgia, serif;
